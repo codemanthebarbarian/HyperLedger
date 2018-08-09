@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # A simple bash script to install the pre-requisites for hyplerledger composer on Ubuntu 14.04
-#the script can be made executeable by issueing chmod 755 HyperledgerPreReq.sh on the command line
+#the script can be made executeable by issueing chmod 755 1HyperLPreReq.sh on the command line
 
 # Update the repos
 apt update
