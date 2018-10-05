@@ -7,6 +7,10 @@ docker rmi $(docker images dev-* -q)
 
 
 #INSTALL CLI TOOLS
+#If running behind a proxy, update npm config 
+# e.g. npm config set proxy http://<proxy>:<port>
+# e.g. npm conifg set https-proxy http://<proxy>:<port>
+
 #Essential CLI Tools
 npm install -g composer-cli@0.19
 
